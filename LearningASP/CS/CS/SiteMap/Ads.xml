@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Advertisements>
+  <Ad>
+    <ImageUrl>google.png</ImageUrl>
+    <NavigateURL>http://www.google.com</NavigateURL>
+    <TargetUrl>_blank</TargetUrl>
+    <Keyword>Google</Keyword>
+    <Impressions>2</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>bing.jpg</ImageUrl>
+    <NavigateURL>http://www.bing.com</NavigateURL>
+    <TargetUrl>_blank</TargetUrl>
+    <Keyword>Bing</Keyword>
+    <Impressions>2</Impressions>
+  </Ad>
+</Advertisements>
