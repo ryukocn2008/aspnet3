@@ -94,10 +94,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="controls\SmartBox.ascx" />
+    <Content Include="ControlTest\ControlTest.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="web.sitemap" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -113,11 +116,26 @@
     <Content Include="SiteMap\Ads.xml" />
     <Content Include="SiteMap\bing.jpg" />
     <Content Include="SiteMap\google.png" />
+    <Content Include="SiteMap\TreeViewSiteMap.aspx" />
     <Content Include="ViewState\ViewState.aspx" />
     <Content Include="ViewState\ViewStateCS.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="controls\SmartBox.ascx.cs">
+      <DependentUpon>SmartBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\SmartBox.ascx.designer.cs">
+      <DependentUpon>SmartBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTest\ControlTest.aspx.cs">
+      <DependentUpon>ControlTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTest\ControlTest.aspx.designer.cs">
+      <DependentUpon>ControlTest.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -132,6 +150,13 @@
     </Compile>
     <Compile Include="SiteMap\AdRotator.aspx.designer.cs">
       <DependentUpon>AdRotator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SiteMap\TreeViewSiteMap.aspx.cs">
+      <DependentUpon>TreeViewSiteMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteMap\TreeViewSiteMap.aspx.designer.cs">
+      <DependentUpon>TreeViewSiteMap.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewState\ViewState.aspx.cs">
       <DependentUpon>ViewState.aspx</DependentUpon>
